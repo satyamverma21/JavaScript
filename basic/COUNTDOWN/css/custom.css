@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&family=Poppins&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/img.jpg') center center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.col {
+    margin-top: 20px;
+    width: 500px;
+    /* height: 100px; */
+    /* border: 1px red solid; */
+    display: flex;
+    /* margin: 10px auto; */
+    /* text-align: center; */
+    justify-content: center;
+    color: white;
+}
+
+.col div {
+    width: 250 px;
+    text-align: center;
+}
+
+input {
+    height: 50px;
+    width: 60%;
+    /* display: block; */
+    background-color: rgba(255, 255, 255, .75);
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
