@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&family=Poppins&display=swap');
+body {
+    background-color: black;
+    transition: 2s;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30rem;
+    /* height: 15rem; */
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: wheat;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 9px;
+    border: none;
+    margin-top: 5px;
+}
