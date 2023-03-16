@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+    min-height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#item {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    display: block;
+    outline: none;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#todoBox {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#todoBox li {
+    background-color: #2c3e50;
+    color: floralwhite;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 1px;
+    position: relative;
+    text-align: justify;
+    padding-right: 30px;
+    user-select: none;
+}
+
+#todoBox li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #000;
+    background-color: #7f8c8d !important;
+}
